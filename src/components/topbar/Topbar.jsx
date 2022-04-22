@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
-                        erikryan.s
+                        erikryan-s
                     </a>
                     <div className="itemContainer">
                         <Person className="icon" />

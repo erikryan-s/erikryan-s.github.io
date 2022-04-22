@@ -22,58 +22,48 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 20px;
 
         h2 {
             font-size: 30px;
         }
 
-        form {
+        p {
             width: 70%;
-            height: 70%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
+        }
 
-            input {
-                width: 300px;
-                height: 30px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 20px;
-                }
+        .icons {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            cursor: pointer;
+            opacity: 1;
+            transition: 0.5s;
+            a:link {
+                color: black;
             }
-
-            textarea {
-                width: 300px;
-                height: 200px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 100px;
-                }
+            a:visited {
+                color: black;
             }
-
-            button {
-                width: 150px;
-                height: 30px;
-                color: white;
-                background-color: crimson;
-                border: none;
-                border-radius: 10px;
-                font-weight: 500;
-                cursor: pointer;
-
-                &:focus {
-                    outline: none;
-                }
+            a:hover {
+                opacity: 0.6;
+                transition: opacity 0.25s ease-in-out;
             }
-
-            span {
-                color: green;
+            a:active {
+                color: black;
+            }
+            #email {
+                font-size: 60px;
+            }
+            #linkedin {
+                font-size: 55px;
+            }
+            #github {
+                font-size: 45px;
             }
         }
     }

@@ -1,12 +1,9 @@
-import { useState } from "react";
 import "./contact.scss";
+import { Email, LinkedIn, GitHub } from "@material-ui/icons";
 
 export default function Contact() {
-    const [message, setMessage] = useState(false);
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setMessage(true);
+    const copyText = () => {
+        navigator.clipboard.writeText("erik1998serrano@outlook.com");
     };
     return (
         <div className="contact" id="contact">
@@ -14,13 +11,25 @@ export default function Contact() {
                 <img src="assets/shake.svg" alt="" />
             </div>
             <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email" />
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {message && <span>Thanks, I'll reply ASAP :)</span>}
-                </form>
+                <h2>Contact Me</h2>
+                <p id="mailText">
+                    I'm interested in any opportunity - especially ambitious or
+                    large projects. However, if you have any other request or
+                    questions, don't hesitate to contact me.
+                </p>
+                <div className="icons">
+                    <div id="email" onClick={copyText}>
+                        <Email fontSize="inherit" />
+                    </div>
+                    <a
+                        id="linkedin"
+                        href="https://www.linkedin.com/in/erik-serrano/">
+                        <LinkedIn fontSize="inherit" />
+                    </a>
+                    <a id="github" href="https://github.com/erikryan-s">
+                        <GitHub fontSize="inherit" />
+                    </a>
+                </div>
             </div>
         </div>
     );
