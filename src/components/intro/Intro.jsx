@@ -11,14 +11,13 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
-                    <h1>Erik Serrano</h1>
+                    <h2>Hi there 👋, I'm</h2>
                     <ReactTypingEffect
-                        text={["Software Developer"]}
-                        cursorRenderer={(cursor) => <h3>{cursor}</h3>}
+                        text={["Erik Serrano"]}
+                        cursorRenderer={(cursor) => <h1>{cursor}</h1>}
                         displayTextRenderer={(text) => {
                             return (
-                                <h3>
+                                <h1>
                                     {text.split("").map((char, i) => {
                                         const key = `${i}`;
                                         return (
@@ -29,7 +28,7 @@ export default function Intro() {
                                             </span>
                                         );
                                     })}
-                                </h3>
+                                </h1>
                             );
                         }}
                     />

@@ -44,20 +44,34 @@
             opacity: 1;
             transition: 0.5s;
             a:link {
-                color: black;
+                color: #15023a;
             }
             a:visited {
-                color: black;
+                color: #15023a;
             }
             a:hover {
                 opacity: 0.6;
                 transition: opacity 0.25s ease-in-out;
             }
             a:active {
-                color: black;
+                color: #15023a;
             }
             #email {
+                color: #15023a;
                 font-size: 60px;
+            }
+            #email:link {
+                color: #15023a;
+            }
+            #email:visited {
+                color: #15023a;
+            }
+            #email:hover {
+                opacity: 0.6;
+                transition: opacity 0.25s ease-in-out;
+            }
+            #email:active {
+                color: #15023a;
             }
             #linkedin {
                 font-size: 55px;
