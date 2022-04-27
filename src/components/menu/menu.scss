@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import "../global/global.scss";
 
 .menu {
     width: 300px;
@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
 
     &.active {
         right: 0;

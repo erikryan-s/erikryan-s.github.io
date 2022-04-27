@@ -1,4 +1,4 @@
-import "./about.scss";
+import "./About.scss";
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
                 </p>
                 <p align="LEFT">
                     I'm quietly confident, naturally curious, and perpetually
-                    working on improving my chops one design problem at a time.
+                    working on improving my skills one problem at a time.
                 </p>
             </div>
         </div>

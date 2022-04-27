@@ -1,21 +1,21 @@
 import { useEffect, useState } from "react";
-import "./portfolio.scss";
-import { featuredPortfolio } from "../../data";
+import "./Projects.scss";
+import { featuredProjects } from "../../data/data";
 
-const Portfolio = () => {
+const Projects = () => {
     const [selected] = useState("featured");
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        setData(featuredPortfolio);
+        setData(featuredProjects);
     }, [selected]);
 
     return (
-        <div className="portfolio" id="portfolio">
+        <div className="projects" id="projects">
             <h1>Projects</h1>
             <div className="container">
                 {data.map((d) => (
-                    <a href={d.link}>
+                    <a href={d.link} key={d.id}>
                         <div className="item">
                             <img src={d.img} alt="" />
                             <h3>{d.title}</h3>
@@ -27,4 +27,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Projects;

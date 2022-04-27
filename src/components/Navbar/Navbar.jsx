@@ -1,13 +1,9 @@
-import "./topbar.scss";
+import "./Navbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
-    const copyText = () => {
-        navigator.clipboard.writeText("erik1998serrano@outlook.com");
-    };
-
+const Navbar = ({ menuOpen, setMenuOpen, copyText }) => {
     return (
-        <div className={"topbar " + (menuOpen && "active")}>
+        <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
@@ -36,4 +32,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             </div>
         </div>
     );
-}
+};
+
+export default Navbar;

@@ -1,6 +1,6 @@
-import "./menu.scss";
+import "./Menu.scss";
 
-export default function Menu({ menuOpen, setMenuOpen }) {
+const Menu = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
@@ -11,7 +11,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#about">About</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#portfolio">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
@@ -19,4 +19,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             </ul>
         </div>
     );
-}
+};
+
+export default Menu;

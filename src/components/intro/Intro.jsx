@@ -1,7 +1,7 @@
-import "./intro.scss";
+import "./Intro.scss";
 import ReactTypingEffect from "react-typing-effect";
 
-export default function Intro() {
+const Intro = () => {
     return (
         <div className="intro" id="intro">
             <div className="left">
@@ -39,4 +39,6 @@ export default function Intro() {
             </div>
         </div>
     );
-}
+};
+
+export default Intro;

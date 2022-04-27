@@ -1,10 +1,7 @@
-import "./contact.scss";
+import "./Contact.scss";
 import { Email, LinkedIn, GitHub } from "@material-ui/icons";
 
-export default function Contact() {
-    const copyText = () => {
-        navigator.clipboard.writeText("erik1998serrano@outlook.com");
-    };
+const Contact = ({ copyText }) => {
     return (
         <div className="contact" id="contact">
             <div className="left">
@@ -33,4 +30,6 @@ export default function Contact() {
             </div>
         </div>
     );
-}
+};
+
+export default Contact;
