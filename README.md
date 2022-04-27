@@ -12,7 +12,7 @@
 ## Screenshots
 
 <p align="center">
-    <img src="https://i.gyazo.com/265eab1c50ce9ee8064451656c61cb21.png" height="400" width=auto>
+    <img src="https://user-images.githubusercontent.com/100544923/165545542-50d672a4-5fde-4042-9e8d-f33c981e5ea3.gif" height="400" width=auto>
 </p>
 
 ## Start-up Instructions
