@@ -2,22 +2,12 @@ import { useEffect, useState } from "react";
 import "./portfolio.scss";
 import { featuredPortfolio } from "../../data";
 
-export default function Portfolio() {
-    const [selected, setSelected] = useState("featured");
+const Portfolio = () => {
+    const [selected] = useState("featured");
     const [data, setData] = useState([]);
-    const list = [
-        {
-            id: "featured",
-            title: "Featured",
-        },
-    ];
 
     useEffect(() => {
-        switch (selected) {
-            case "featured":
-                setData(featuredPortfolio);
-                break;
-        }
+        setData(featuredPortfolio);
     }, [selected]);
 
     return (
@@ -25,12 +15,16 @@ export default function Portfolio() {
             <h1>Projects</h1>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
-                        <img src={d.img} alt="" />
-                        <h3>{d.title}</h3>
-                    </div>
+                    <a href={d.link}>
+                        <div className="item">
+                            <img src={d.img} alt="" />
+                            <h3>{d.title}</h3>
+                        </div>
+                    </a>
                 ))}
             </div>
         </div>
     );
-}
+};
+
+export default Portfolio;
