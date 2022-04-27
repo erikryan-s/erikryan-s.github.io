@@ -7,7 +7,7 @@
     align-items: center;
 
     h1 {
-        font-size: 50px;
+        font-size: 4rem;
 
         @include mobile {
             font-size: 20px;
@@ -47,10 +47,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: $mainColor;
             color: white;
             position: relative;
-            transition: all 1s ease;
+            transition: all 0.3s ease;
             cursor: pointer;
 
             @include mobile {
@@ -73,7 +72,7 @@
             &:hover {
                 background-color: $mainColor;
                 img {
-                    opacity: 0;
+                    opacity: 0.2;
                     z-index: 0;
                 }
             }

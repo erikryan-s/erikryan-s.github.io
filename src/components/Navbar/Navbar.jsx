@@ -1,7 +1,10 @@
 import "./Navbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 
-const Navbar = ({ menuOpen, setMenuOpen, copyText }) => {
+const Navbar = ({ menuOpen, setMenuOpen }) => {
+    const copyText = () => {
+        navigator.clipboard.writeText("erik1998serrano@outlook.com");
+    };
     return (
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">

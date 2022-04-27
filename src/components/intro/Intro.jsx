@@ -33,7 +33,7 @@ const Intro = () => {
                         }}
                     />
                 </div>
-                <a href="#portfolio">
+                <a href="#projects">
                     <img src="assets/down.png" alt="" />
                 </a>
             </div>

@@ -1,15 +1,11 @@
 import Topbar from "./components/Navbar/Navbar";
-import Intro from "./components/intro/Intro";
-import About from "./components/about/About";
-import Portfolio from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
+import Intro from "./components/Intro/Intro";
+import About from "./components/About/About";
+import Portfolio from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 import "./App.scss";
 import { useState } from "react";
-import Menu from "./components/menu/Menu";
-
-export const copyText = () => {
-    navigator.clipboard.writeText("erik1998serrano@outlook.com");
-};
+import Menu from "./components/Menu/Menu";
 
 const App = () => {
     const [menuOpen, setMenuOpen] = useState(false);

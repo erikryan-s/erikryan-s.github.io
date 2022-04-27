@@ -2,7 +2,7 @@ export const featuredProjects = [
     {
         id: 1,
         title: "Start Clothing.",
-        img: "https://user-images.githubusercontent.com/100544923/163005073-076fdded-923d-4ba7-92da-805b66d38aa0.gif",
+        img: "https://i.gyazo.com/2ce57b270017cb0e7699c31a4180ef34.jpg",
         link: "https://github.com/erikryan-s/start-clothing",
     },
     {

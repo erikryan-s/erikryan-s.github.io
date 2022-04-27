@@ -1,7 +1,10 @@
 import "./Contact.scss";
 import { Email, LinkedIn, GitHub } from "@material-ui/icons";
 
-const Contact = ({ copyText }) => {
+const Contact = () => {
+    const copyText = () => {
+        navigator.clipboard.writeText("erik1998serrano@outlook.com");
+    };
     return (
         <div className="contact" id="contact">
             <div className="left">
