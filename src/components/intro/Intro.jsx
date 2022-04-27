@@ -33,9 +33,6 @@ const Intro = () => {
                         }}
                     />
                 </div>
-                <a href="#projects">
-                    <img src="assets/down.png" alt="" />
-                </a>
             </div>
         </div>
     );
