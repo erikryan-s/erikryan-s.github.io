@@ -1,4 +1,15 @@
 import "./About.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faHtml5,
+    faCss3Alt,
+    faSass,
+    faJsSquare,
+    faGitAlt,
+    faReact,
+    faAws,
+    faJava,
+} from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
     return (
@@ -14,46 +25,37 @@ const About = () => {
                     I'm quietly confident, naturally curious, and perpetually
                     working on improving my skills one problem at a time.
                 </p>
-                <h3>My Stacks</h3>
-                <div className="icons">
-                    <div class="one">
-                        <img src="assets/stacks/js.svg" alt="" />
+                <div className="stacks">
+                    <h3>My Stacks include:</h3>
+                    <div className="icons">
+                        <div class="one">
+                            <FontAwesomeIcon icon={faHtml5} size="3x" />
+                        </div>
+                        <div class="two">
+                            <FontAwesomeIcon icon={faCss3Alt} size="3x" />
+                        </div>
+                        <div class="three">
+                            <FontAwesomeIcon icon={faSass} size="3x" />
+                        </div>
+                        <div class="four">
+                            <FontAwesomeIcon icon={faJsSquare} size="3x" />
+                        </div>
+                        <div class="five">
+                            <FontAwesomeIcon icon={faGitAlt} size="3x" />
+                        </div>
+                        <div class="six">
+                            <FontAwesomeIcon icon={faReact} size="3x" />
+                        </div>
+                        <div class="seven">
+                            <FontAwesomeIcon icon={faAws} size="3x" />
+                        </div>
+                        <div class="eight">
+                            <FontAwesomeIcon icon={faJava} size="3x" />
+                        </div>
                     </div>
-                    <div class="two">
-                        <img src="assets/stacks/css.svg" alt="" />
-                    </div>
-                    <div class="three">
-                        <img src="assets/stacks/sass.svg" alt="" />
-                    </div>
-                    <div class="four">
-                        <img src="assets/stacks/html.svg" alt="" />
-                    </div>
-                    <div class="five">
-                        <img src="assets/stacks/git.svg" alt="" />
-                    </div>
-                    <div class="six">
-                        <img src="assets/stacks/java.svg" alt="" />
-                    </div>
-                    <div class="seven">
-                        <img src="assets/stacks/react.svg" alt="" />
-                    </div>
-                    <div class="eight">
-                        <img src="assets/stacks/springboot.svg" alt="" />
-                    </div>
-                    <div class="nine">
-                        <img src="assets/stacks/sql.svg" alt="" />
-                    </div>
-                    <div class="ten">
-                        <img src="assets/stacks/mysql.svg" alt="" />
-                    </div>
-                    <div class="eleven">
-                        <img src="assets/stacks/firestore.svg" alt="" />
-                    </div>
-                    <div class="twelve">
-                        <img src="assets/stacks/aws.svg" alt="" />
-                    </div>
+                    <div className="icons"></div>
+                    <h4>and more...</h4>
                 </div>
-                <div className="icons"></div>
             </div>
 
             <div className="right">
