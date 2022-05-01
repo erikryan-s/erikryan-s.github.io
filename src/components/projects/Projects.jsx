@@ -12,7 +12,9 @@ const Projects = () => {
 
     return (
         <div className="projects" id="projects">
-            <h1>Projects</h1>
+            <div className="bg-text">&#8249;h2&#8250;</div>
+            <h2>Projects</h2>
+            <div className="bg-text">&#8249;h2/&#8250;</div>
             <div className="container">
                 {data.map((d) => (
                     <a href={d.link} key={d.id}>

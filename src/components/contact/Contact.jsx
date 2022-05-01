@@ -11,12 +11,16 @@ const Contact = () => {
                 <img src="assets/shake.svg" alt="" />
             </div>
             <div className="right">
+                <div className="bg-text">&#8249;h2&#8250;</div>
                 <h2>Contact Me</h2>
+                <div className="bg-text">&#8249;h2/&#8250;</div>
+                <div className="bg-text">&#8249;p&#8250;</div>
                 <p id="mailText">
                     I'm interested in any opportunity - especially ambitious or
                     large projects. However, if you have any other request or
                     questions, don't hesitate to contact me.
                 </p>
+                <div className="bg-text">&#8249;p/&#8250;</div>
                 <div className="icons">
                     <div id="email" onClick={copyText}>
                         <Email fontSize="inherit" />

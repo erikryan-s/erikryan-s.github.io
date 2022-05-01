@@ -1,6 +1,6 @@
 # erikryan-s React Portfolio
 
-//
+Version 2 of my original portfolio, rebuilt using ReactJS. Showcases a selection of deployed projects, about me, tech stack and contact information.
 
 🔗 [Live Demo]() (**TO BE DEPLOYED**)
 
@@ -12,7 +12,7 @@
 ## Screenshots
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/100544923/165545542-50d672a4-5fde-4042-9e8d-f33c981e5ea3.gif" height="400" width=auto>
+    <img src="https://i.gyazo.com/dcc16615504fb29494ec65df8c9bdb88.png" height="400" width=auto>
 </p>
 
 ## Start-up Instructions

@@ -1,8 +1,9 @@
 @import "../global/global.scss";
 
 .about {
-    background-color: white;
+    background-color: $background;
     display: flex;
+    color: $white;
 
     @include mobile {
         flex-direction: column;
@@ -19,6 +20,7 @@
 
     h2 {
         font-size: 4rem;
+        overflow: hidden;
     }
 
     p {
@@ -28,10 +30,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        overflow: hidden;
     }
 
     h3 {
         font-size: 2.5rem;
+        overflow: hidden;
+    }
+
+    h4 {
+        overflow: hidden;
     }
 
     .stacks {
@@ -42,6 +50,7 @@
     }
 
     .icons {
+        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -59,6 +68,7 @@
     .six,
     .seven,
     .eight {
+        overflow: hidden;
         transition: all 0.3s;
     }
     .one {
@@ -93,7 +103,7 @@
     .six:hover,
     .seven:hover,
     .eight:hover {
-        transform: scale(1.2);
+        opacity: 0.6;
     }
 }
 

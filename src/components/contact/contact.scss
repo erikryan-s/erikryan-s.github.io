@@ -1,8 +1,9 @@
 @import "../global/global.scss";
 
 .contact {
-    background-color: white;
+    background-color: $background;
     display: flex;
+    color: $white;
 
     @include mobile {
         flex-direction: column;
@@ -45,34 +46,34 @@
             opacity: 1;
             transition: 0.5s;
             a:link {
-                color: black;
+                color: $white;
             }
             a:visited {
-                color: black;
+                color: $white;
             }
             a:hover {
                 opacity: 0.6;
                 transition: opacity 0.25s ease-in-out;
             }
             a:active {
-                color: black;
+                color: $white;
             }
             #email {
-                color: black;
+                color: $white;
                 font-size: 60px;
             }
             #email:link {
-                color: black;
+                color: $white;
             }
             #email:visited {
-                color: black;
+                color: $white;
             }
             #email:hover {
                 opacity: 0.6;
                 transition: opacity 0.25s ease-in-out;
             }
             #email:active {
-                color: black;
+                color: $white;
             }
             #linkedin {
                 font-size: 55px;

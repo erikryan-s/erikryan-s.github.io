@@ -11,7 +11,10 @@ const Intro = () => {
             </div>
             <div className="right">
                 <div className="wrapper">
+                    <div className="bg-text">&#8249;h2&#8250;</div>
                     <h2>Hi there 👋, I'm</h2>
+                    <div className="bg-text">&#8249;h2/&#8250;</div>
+                    <div className="bg-text">&#8249;h1&#8250;</div>
                     <ReactTypingEffect
                         text={["Erik Serrano"]}
                         cursorRenderer={(cursor) => <h1>{cursor}</h1>}
@@ -23,7 +26,7 @@ const Intro = () => {
                                         return (
                                             <span
                                                 key={key}
-                                                style={{ color: "black" }}>
+                                                style={{ color: "white" }}>
                                                 {char}
                                             </span>
                                         );
@@ -32,6 +35,7 @@ const Intro = () => {
                             );
                         }}
                     />
+                    <div className="bg-text">&#8249;h1/&#8250;</div>
                 </div>
             </div>
         </div>
