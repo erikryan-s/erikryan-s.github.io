@@ -1,15 +1,4 @@
 import "./About.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faHtml5,
-    faCss3Alt,
-    faSass,
-    faJsSquare,
-    faGitAlt,
-    faReact,
-    faAws,
-    faJava,
-} from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
     return (
@@ -29,37 +18,6 @@ const About = () => {
                     working on improving my skills one problem at a time.
                 </p>
                 <div className="bg-text">&#8249;p/&#8250;</div>
-                <div className="stacks">
-                    <h3>My Stacks include:</h3>
-                    <div className="icons">
-                        <div class="one">
-                            <FontAwesomeIcon icon={faHtml5} size="3x" />
-                        </div>
-                        <div class="two">
-                            <FontAwesomeIcon icon={faCss3Alt} size="3x" />
-                        </div>
-                        <div class="three">
-                            <FontAwesomeIcon icon={faSass} size="3x" />
-                        </div>
-                        <div class="four">
-                            <FontAwesomeIcon icon={faJsSquare} size="3x" />
-                        </div>
-                        <div class="five">
-                            <FontAwesomeIcon icon={faGitAlt} size="3x" />
-                        </div>
-                        <div class="six">
-                            <FontAwesomeIcon icon={faReact} size="3x" />
-                        </div>
-                        <div class="seven">
-                            <FontAwesomeIcon icon={faAws} size="3x" />
-                        </div>
-                        <div class="eight">
-                            <FontAwesomeIcon icon={faJava} size="3x" />
-                        </div>
-                    </div>
-                    <div className="icons"></div>
-                    <h4>and more...</h4>
-                </div>
             </div>
 
             <div className="right">

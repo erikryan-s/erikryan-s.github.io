@@ -1,6 +1,7 @@
 import Topbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
+import Stacks from "./components/Stacks/Stacks";
 import Portfolio from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import "./App.scss";
@@ -16,6 +17,7 @@ const App = () => {
             <div className="sections">
                 <Intro />
                 <About />
+                <Stacks />
                 <Portfolio />
                 <Contact />
             </div>

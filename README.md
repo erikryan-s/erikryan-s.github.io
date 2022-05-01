@@ -12,7 +12,7 @@ Version 2 of my original portfolio, rebuilt using ReactJS. Showcases a selection
 ## Screenshots
 
 <p align="center">
-    <img src="https://i.gyazo.com/dcc16615504fb29494ec65df8c9bdb88.png" height="400" width=auto>
+    <img src="https://i.gyazo.com/8a84bd1364b3c85db40137f1e4c0af2e.png" height="400" width=auto>
 </p>
 
 ## Start-up Instructions
