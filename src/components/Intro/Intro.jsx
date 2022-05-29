@@ -6,7 +6,7 @@ const Intro = () => {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="" />
+                    <img src={require("../../assets/me.png")} alt="Me" />
                 </div>
             </div>
             <div className="right">

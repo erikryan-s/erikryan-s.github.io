@@ -1,5 +1,6 @@
 import "./Contact.scss";
 import { Email, LinkedIn, GitHub } from "@material-ui/icons";
+import { ReactComponent as ReactLogo } from "../../assets/shake.svg";
 
 const Contact = () => {
     const copyText = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/shake.svg" alt="" />
+                <ReactLogo />
             </div>
             <div className="right">
                 <div className="bg-text">&#8249;h2&#8250;</div>

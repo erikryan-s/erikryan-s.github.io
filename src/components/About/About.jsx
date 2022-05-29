@@ -1,4 +1,5 @@
 import "./About.scss";
+import { ReactComponent as ReactLogo } from "../../assets/dev.svg";
 
 const About = () => {
     return (
@@ -21,7 +22,7 @@ const About = () => {
             </div>
 
             <div className="right">
-                <img src="assets/dev.svg" alt="" />
+                <ReactLogo />
             </div>
         </div>
     );
