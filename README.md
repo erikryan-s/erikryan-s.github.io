@@ -2,7 +2,7 @@
 
 Version 2 of my original portfolio, rebuilt using ReactJS. Showcases a selection of deployed projects, about me, tech stack and contact information.
 
-🔗 [Live Demo](https://erikryan-s.github.io/erikryan-s/)
+🔗 [Live Demo](https://erikryan-s.github.io/)
 
 ## Table of Contents
 
