@@ -25,7 +25,7 @@ You will also see any lint errors in the console.
 
 <p align="center">
     <h3>Home Page</h3>
-        <img src="https://i.gyazo.com/8a84bd1364b3c85db40137f1e4c0af2e.png" height="400" width=auto>
+        <img src="https://i.gyazo.com/d1cd62a7a5d7ad743ca059347ac0a98e.png" height="400" width=auto>
     <h3>Menu Screen</h3>
         <img src="https://i.gyazo.com/e81fcec8a7425226ccf1d6d9636472ad.png" height="400" width=auto>
     <h3>About Me</h3>
