@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/erikryan-s/static/css/main.e1bc595d.css",
+    "main.js": "/erikryan-s/static/js/main.eaa13702.js",
+    "static/media/me.png": "/erikryan-s/static/media/me.ed18d4bd892cb2755b75.png",
+    "static/media/dev.svg": "/erikryan-s/static/media/dev.c277a17c1038030572912d63063c1cbb.svg",
+    "static/media/shake.svg": "/erikryan-s/static/media/shake.26faef859cbb0f9d7902ca69cd2d985a.svg",
+    "index.html": "/erikryan-s/index.html",
+    "main.e1bc595d.css.map": "/erikryan-s/static/css/main.e1bc595d.css.map",
+    "main.eaa13702.js.map": "/erikryan-s/static/js/main.eaa13702.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bc595d.css",
+    "static/js/main.eaa13702.js"
+  ]
+}
